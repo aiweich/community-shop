@@ -1636,9 +1636,9 @@ function normalizeComponent (
 /***/ }),
 
 /***/ 141:
-/*!*****************************************************************************************!*\
-  !*** /Users/chenaiwei/Documents/workSpace/uniApp/hm-shop/components/uni-icons/icons.js ***!
-  \*****************************************************************************************/
+/*!************************************************************************************************!*\
+  !*** /Users/chenaiwei/Documents/workSpace/uniApp/community-shop/components/uni-icons/icons.js ***!
+  \************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1742,9 +1742,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 
 /***/ 15:
-/*!***********************************************************************!*\
-  !*** /Users/chenaiwei/Documents/workSpace/uniApp/hm-shop/util/api.js ***!
-  \***********************************************************************/
+/*!******************************************************************************!*\
+  !*** /Users/chenaiwei/Documents/workSpace/uniApp/community-shop/util/api.js ***!
+  \******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -8564,9 +8564,9 @@ module.exports = g;
 /***/ }),
 
 /***/ 4:
-/*!**********************************************************************!*\
-  !*** /Users/chenaiwei/Documents/workSpace/uniApp/hm-shop/pages.json ***!
-  \**********************************************************************/
+/*!*****************************************************************************!*\
+  !*** /Users/chenaiwei/Documents/workSpace/uniApp/community-shop/pages.json ***!
+  \*****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9474,9 +9474,9 @@ module.exports = {"_from":"@dcloudio/uni-stat@^2.0.0-alpha-24420191128001","_id"
 /***/ }),
 
 /***/ 7:
-/*!***************************************************************************************!*\
-  !*** /Users/chenaiwei/Documents/workSpace/uniApp/hm-shop/pages.json?{"type":"style"} ***!
-  \***************************************************************************************/
+/*!**********************************************************************************************!*\
+  !*** /Users/chenaiwei/Documents/workSpace/uniApp/community-shop/pages.json?{"type":"style"} ***!
+  \**********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9486,9 +9486,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 
 /***/ 8:
-/*!**************************************************************************************!*\
-  !*** /Users/chenaiwei/Documents/workSpace/uniApp/hm-shop/pages.json?{"type":"stat"} ***!
-  \**************************************************************************************/
+/*!*********************************************************************************************!*\
+  !*** /Users/chenaiwei/Documents/workSpace/uniApp/community-shop/pages.json?{"type":"stat"} ***!
+  \*********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
