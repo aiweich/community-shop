@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["components/uni-goods-nav/uni-goods-nav"],{3861:function(t,n,o){"use strict";o.r(n);var e=o("d54e"),u=o("a22f");for(var i in u)"default"!==i&&function(t){o.d(n,t,function(){return u[t]})}(i);o("df49");var a=o("2877"),c=Object(a["a"])(u["default"],e["a"],e["b"],!1,null,"22343ea8",null);n["default"]=c.exports},4803:function(t,n,o){"use strict";(function(t){Object.defineProperty(n,"__esModule",{value:!0}),n.default=void 0;var o={name:"UniGoodsNav",props:{options:{type:Array,default:function(){return[{icon:"https://img-cdn-qiniu.dcloud.net.cn/uniapp/uni-ui/goodsnav/dianpu.png",text:"店铺"},{icon:"https://img-cdn-qiniu.dcloud.net.cn/uniapp/uni-ui/goodsnav/carts.png",text:"购物车"}]}},buttonGroup:{type:Array,default:function(){return[{text:"加入购物车",backgroundColor:"#ff0000",color:"#fff"},{text:"立即购买",backgroundColor:"#ffa200",color:"#fff"}]}},fill:{type:Boolean,default:!1}},methods:{onClick:function(t,n){this.$emit("click",{index:t,content:n})},buttonClick:function(n,o){t.report&&t.report(o.text,o.text),this.$emit("buttonClick",{index:n,content:o})}}};n.default=o}).call(this,o("6e42")["default"])},9980:function(t,n,o){},a22f:function(t,n,o){"use strict";o.r(n);var e=o("4803"),u=o.n(e);for(var i in e)"default"!==i&&function(t){o.d(n,t,function(){return e[t]})}(i);n["default"]=u.a},d54e:function(t,n,o){"use strict";var e=function(){var t=this,n=t.$createElement;t._self._c},u=[];o.d(n,"a",function(){return e}),o.d(n,"b",function(){return u})},df49:function(t,n,o){"use strict";var e=o("9980"),u=o.n(e);u.a}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'components/uni-goods-nav/uni-goods-nav-create-component',
+    {
+        'components/uni-goods-nav/uni-goods-nav-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('6e42')['createComponent'](__webpack_require__("3861"))
+        })
+    },
+    [['components/uni-goods-nav/uni-goods-nav-create-component']]
+]);

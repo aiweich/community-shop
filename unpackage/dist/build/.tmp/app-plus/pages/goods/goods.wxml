@@ -1,0 +1,1 @@
+<view class="goods_list"><good-lists vue-id="1" hotGoods="{{hotGoods}}" data-event-opts="{{[['^itemDetail',[['itemDetail']]]]}}" bind:itemDetail="__e" bind:__l="__l"></good-lists><block wx:if="{{flag}}"><view class="footer">----我是有底线的----</view></block></view>

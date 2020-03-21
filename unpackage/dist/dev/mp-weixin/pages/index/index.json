@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "good-lists": "/components/goods_list",
+    "uni-nav-bar": "/components/uni-nav-bar/uni-nav-bar",
+    "uni-search-bar": "/components/uni-search-bar/uni-search-bar"
+  }
+}

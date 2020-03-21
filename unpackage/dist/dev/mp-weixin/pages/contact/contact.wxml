@@ -1,0 +1,1 @@
+<view class="contact"><image src="../../static/contact.jpg"></image><view data-event-opts="{{[['tap',[['callPhone',['$event']]]]]}}" class="phone" bindtap="__e">联系电话：1234567（点击拨打）</view><view class="address">联系地址：广州市白云区</view><map class="map" latitude="{{latitude}}" longitude="{{longitude}}" markers="{{covers}}"></map></view>

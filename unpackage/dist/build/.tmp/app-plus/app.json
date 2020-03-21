@@ -1,0 +1,57 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/news/news",
+    "pages/shop/shop",
+    "pages/me/me",
+    "pages/goods/goods",
+    "pages/contact/contact",
+    "pages/pics/pics",
+    "pages/news/newsDetail",
+    "pages/goods/goodsDetail"
+  ],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "商城",
+    "navigationBarBackgroundColor": "#d81e06",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "selectedColor": "#d81e06",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "static/icon/index.png",
+        "selectedIconPath": "static/icon/indexSelected.png"
+      },
+      {
+        "text": "资讯",
+        "pagePath": "pages/news/news",
+        "iconPath": "static/icon/news.png",
+        "selectedIconPath": "static/icon/newsSelected.png"
+      },
+      {
+        "text": "购物车",
+        "pagePath": "pages/shop/shop",
+        "iconPath": "static/icon/shop.png",
+        "selectedIconPath": "static/icon/shopSelected.png"
+      },
+      {
+        "text": "关于",
+        "pagePath": "pages/me/me",
+        "iconPath": "static/icon/me.png",
+        "selectedIconPath": "static/icon/meSelected.png"
+      }
+    ]
+  },
+  "nvueCompiler": "uni-app",
+  "renderer": "auto",
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "社区超市",
+  "compilerVersion": "2.4.6",
+  "usingComponents": {}
+}

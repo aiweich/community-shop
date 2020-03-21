@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/news/news",
+    "pages/shop/shop",
+    "pages/me/me",
+    "pages/goods/goods",
+    "pages/contact/contact",
+    "pages/type/type",
+    "pages/news/newsDetail",
+    "pages/goods/goodsDetail"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "社区商城",
+    "navigationBarBackgroundColor": "#d81e06",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "selectedColor": "#d81e06",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "static/icon/index.png",
+        "selectedIconPath": "static/icon/indexSelected.png"
+      },
+      {
+        "text": "分类",
+        "pagePath": "pages/type/type",
+        "iconPath": "static/icon/type.png",
+        "selectedIconPath": "static/icon/typeSelected.png"
+      },
+      {
+        "text": "购物车",
+        "pagePath": "pages/shop/shop",
+        "iconPath": "static/icon/shop.png",
+        "selectedIconPath": "static/icon/shopSelected.png"
+      },
+      {
+        "text": "个人",
+        "pagePath": "pages/me/me",
+        "iconPath": "static/icon/me.png",
+        "selectedIconPath": "static/icon/meSelected.png"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap78.json"
+}

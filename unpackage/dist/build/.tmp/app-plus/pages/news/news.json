@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "news-list": "/components/news_item"
+  }
+}

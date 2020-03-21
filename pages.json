@@ -1,0 +1,90 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style":{
+				"app-plus": {"titleNView": false} 
+			}
+		}, {
+			"path": "pages/news/news",
+			"style": {
+				"navigationBarTitleText":"分类"
+			}
+		}, {
+			"path": "pages/shop/shop",
+			"style": {
+				"navigationBarTitleText":"购物车"
+			}
+		}, {
+			"path": "pages/me/me",
+			"style": {
+				"navigationBarTitleText":"个人中心"
+			}
+		}
+	    ,{
+            "path" : "pages/goods/goods",
+            "style" : {
+				"navigationBarTitleText":"商品列表",
+				"enablePullDownRefresh":true
+			}
+        }
+        ,{
+            "path" : "pages/contact/contact",
+            "style" : {
+				"navigationBarTitleText":"联系我们"
+			}
+        }
+        ,{
+            "path" : "pages/type/type",
+            "style" : {
+				"navigationBarTitleText":"商品分类"
+			}
+        }
+        ,{
+            "path" : "pages/news/newsDetail",
+            "style" : {
+				"navigationBarTitleText":"详情"
+			}
+        }
+        ,{
+            "path" : "pages/goods/goodsDetail",
+            "style" : {
+				"navigationBarTitleText":"详情"
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "社区商城",
+		"navigationBarBackgroundColor": "#d81e06",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"selectedColor": "#d81e06",
+		"list": [{
+				"text": "首页",
+				"pagePath": "pages/index/index",
+				"iconPath": "static/icon/index.png",
+				"selectedIconPath": "static/icon/indexSelected.png"
+			},
+			{
+				"text": "分类",
+				"pagePath": "pages/type/type",
+				"iconPath": "static/icon/type.png",
+				"selectedIconPath": "static/icon/typeSelected.png"
+			},
+			{
+				"text": "购物车",
+				"pagePath": "pages/shop/shop",
+				"iconPath": "static/icon/shop.png",
+				"selectedIconPath": "static/icon/shopSelected.png"
+			},
+			{
+				"text": "个人",
+				"pagePath": "pages/me/me",
+				"iconPath": "static/icon/me.png",
+				"selectedIconPath": "static/icon/meSelected.png"
+			}
+		]
+	}
+}

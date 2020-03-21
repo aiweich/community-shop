@@ -1,0 +1,1 @@
+<view><news-list vue-id="1" newsLists="{{newsLists}}" data-event-opts="{{[['^itemDetail',[['newsDetail']]]]}}" bind:itemDetail="__e" bind:__l="__l"></news-list></view>
